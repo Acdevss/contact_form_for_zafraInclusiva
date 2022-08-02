@@ -27,7 +27,7 @@ $(function() {
 				/* submit via ajax */
 				submitHandler: function(form) {		
 					var $submit = $('.submitting'),
-						waitText = 'Submitting...';
+						waitText = 'enviado...';
 
 					$.ajax({   	
 				      type: "POST",
